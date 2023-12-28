@@ -1,0 +1,99 @@
+/* Fortação Padrão */
+:root {
+  --cor-menu: #ff6600;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", Verdana, Geneva, Tahoma, sans-serif;
+  color: #404040;
+  font-size: 1.728rem;
+  line-height: 1.6;
+  background-color: #f0f2f4;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3.583rem;
+}
+
+/* Header Logo Seleção Brasileira e site Oficial */
+header {
+  background-image: url(HD-wallpaper-selecao-brasileira-bola-brasil-camisa-futebool.jpg);
+  background-size: cover;
+  background-position: left center;
+}
+
+.logo-site-oficial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.441rem;
+
+  & img {
+    width: 10rem;
+  }
+
+  & a {
+    text-decoration: none;
+  }
+
+  & a:link,
+  a:visited,
+  a:hover,
+  a:active {
+    color: black;
+  }
+}
+
+/* Cabeçalho com título H1 da Página */
+.cabecalho-titulo {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 1.953rem;
+}
+
+/* Paginação Títulos Mundiais */
+.titulos-mundiais {
+  display: flex;
+  flex-flow: column;
+}
+
+.link-titulo {
+  text-decoration: none;
+  font-size: 2.488rem;
+  position: relative;
+
+  &:link,
+  &:visited,
+  &:active {
+    color: #404040;
+  }
+
+  &:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  &:hover::before {
+    content: "";
+    position: absolute;
+    background-color: #0b8007;
+    width: 12rem;
+    height: 4rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+  }
+}
