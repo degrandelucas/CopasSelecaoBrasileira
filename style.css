@@ -68,24 +68,26 @@ header {
 .titulos-mundiais {
   display: flex;
   flex-flow: column;
-}
+  margin: 1.563rem;
+  margin-bottom: 3.052rem;
 
-.link-titulo {
-  text-decoration: none;
-  font-size: 2.488rem;
-  position: relative;
+  & .link-titulo {
+    text-decoration: none;
+    font-size: 2.488rem;
+    position: relative;
+  }
 
-  &:link,
-  &:visited,
-  &:active {
+  & .link-titulo:link,
+  & .link-titulo:visited,
+  & .link-titulo:active {
     color: #404040;
   }
 
-  &:hover {
-    color: rgb(255, 255, 255);
+  & .link-titulo:hover {
+    color: #f0f2f4;
   }
 
-  &:hover::before {
+  & .link-titulo:hover::before {
     content: "";
     position: absolute;
     background-color: #0b8007;
@@ -95,5 +97,64 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: -1;
+  }
+}
+
+/* Acordeão curiosidas das Copas vencidas pela Seleção Brasileira */
+.acordeao {
+  display: flex;
+  flex-flow: column;
+  gap: 1.953rem;
+
+  & .acordeao-curiosidades {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    box-shadow: inset 0rem 0rem 0.3rem 0rem #112e61b0;
+    text-align: left;
+    margin: 0 1.953rem;
+    border-radius: 2.5rem;
+
+    & .acordeao-titulo {
+      display: flex;
+      flex-flow: column;
+      align-items: stretch;
+    }
+
+    & .acordeao-titulo,
+    .acordeao-selecionado {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.953rem;
+      padding: 1.953rem;
+      cursor: pointer;
+    }
+
+    .acordeao-selecionado {
+      background-color: rgb(17, 3, 209);
+      color: #f0f2f4;
+      border-top-left-radius: 2.5rem;
+      border-top-right-radius: 2.5rem;
+    }
+
+    & .conteudo,
+    .conteudo-selecionado {
+      padding: 1.953rem;
+      padding-top: 1.25rem;
+    }
+
+    & .conteudo {
+      display: none;
+    }
+
+    & .conteudo-selecionado {
+      display: block;
+      background-color: rgb(255, 246, 199);
+      border-end-start-radius: 2.5rem;
+      border-end-end-radius: 2.5rem;
+      box-shadow: inset 0rem 0rem 0.3rem 0rem #112e61b0;
+    }
   }
 }
