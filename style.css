@@ -109,7 +109,7 @@ header {
   display: flex;
   flex-flow: column;
   gap: 1.953rem;
-  margin-bottom: 2.441rem;
+  margin-bottom: 3.052rem;
 
   & .acordeao-curiosidades {
     display: flex;
@@ -138,7 +138,7 @@ header {
     }
 
     .acordeao-selecionado {
-      background-color: rgb(17, 3, 209);
+      background-color: rgb(15, 5, 156);
       color: #f0f2f4;
       border-top-left-radius: 2.5rem;
       border-top-right-radius: 2.5rem;
@@ -160,6 +160,45 @@ header {
 
     & .conteudo-selecionado {
       display: flex;
+    }
+  }
+}
+
+/* Outros títulos importantes da Seleção Brasileira */
+.Outros-Titulos {
+  display: flex;
+  flex-flow: column;
+  margin: 3.052rem 1.563rem;
+
+  & h2 {
+    margin-bottom: 1.563rem;
+  }
+
+  & .botao {
+    font-size: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 4rem;
+    height: 4rem;
+    color: #f0f2f4;
+    position: absolute;
+    z-index: 1;
+
+    &.esquerdo {
+    }
+    &.direito {
+    }
+  }
+  & .imagens {
+    display: flex;
+    gap: 1rem;
+    max-width: 100rem;
+    position: relative;
+
+    & figure img {
+      height: 100%;
     }
   }
 }
