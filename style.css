@@ -179,7 +179,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 colunas */
     grid-template-rows: repeat(2, auto);
-    gap: 0.328rem;
+    gap: 0.8rem;
     max-width: 100rem;
 
     & .imagem {
@@ -190,14 +190,14 @@ header {
 
     & .imagem img {
       width: min(
-        calc(calc(100rem - calc(2 * 0.328rem)) / 3),
-        calc(calc(100vw - calc(2 * 0.328rem)) / 3)
+        calc(calc(100rem - calc(2 * 0.8rem)) / 2),
+        calc(calc(100vw - calc(2 * 0.8rem)) / 2)
       );
-      /* height: 20rem; */
       border-radius: 1.5rem;
     }
     & .imagem figcaption {
       font-size: 1.2rem;
+      margin-bottom: 0.8rem;
     }
 
     /* & .botao {
