@@ -184,8 +184,6 @@ header {
 
     & .imagem {
       aspect-ratio: 16/9;
-      width: 100%;
-      position: relative;
     }
 
     & .imagem img {
