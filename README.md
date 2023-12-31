@@ -9,6 +9,6 @@ Os componentes personalizados criados no projeto de um site mostrando os título
 -Popup;
 -Carrossel;
 
-Por fim, o carrossel foi substituído utilizando display Grid no CSS, deixando o layout mais responsivo e melhor para visualização, inclusive das legendas informativas.
+Por fim, o carrossel foi substituído utilizando display Grid no CSS, deixando o layout mais responsivo e melhorando a visualização das legendas informativas.
 
 Página disponível na url https://degrandelucas.github.io/CopasSelecaoBrasileira/
