@@ -177,10 +177,10 @@ header {
 
   & .imagens {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 2 colunas */
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas */
     grid-template-rows: repeat(2, auto);
     gap: 0.512rem;
-    max-width: 100rem;
+    max-width: 80rem;
 
     & .imagem {
       aspect-ratio: 16/9;
