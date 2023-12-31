@@ -4,9 +4,9 @@ Componentes personalizados são componentes que não temos tags nativas em HTML 
 
 Os componentes personalizados criados no projeto de um site mostrando os títulos mundiais (e outros títulos) da Seleção Brasileira foram:
 
--Paginação;
--Acordeão;
--Popup;
+-Paginação; </br>
+-Acordeão;</br>
+-Popup;</br>
 -Carrossel;
 
 Por fim, o carrossel foi substituído utilizando display Grid no CSS, deixando o layout mais responsivo e melhorando a visualização das legendas informativas.
