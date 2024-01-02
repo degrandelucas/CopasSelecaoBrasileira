@@ -178,7 +178,6 @@ header {
   & .imagens {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 colunas */
-    grid-template-rows: repeat(2, auto);
     gap: 0.8rem;
     max-width: 100rem;
 
