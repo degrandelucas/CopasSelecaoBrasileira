@@ -11,4 +11,6 @@ Os componentes personalizados criados no projeto de um site mostrando os título
 
 Por fim, o carrossel foi substituído utilizando display Grid no CSS, deixando o layout mais responsivo e melhorando a visualização das legendas informativas.
 
+Criação de uma animação usando Keyframes chamado "bola" e aplicado na página na área de títulos mundiais.
+
 Página disponível na url https://degrandelucas.github.io/CopasSelecaoBrasileira/
