@@ -110,7 +110,7 @@ header {
     &:hover::before {
       content: "";
       position: absolute;
-      background-color: #0b8007;
+      background-color: #0b8008;
       border-radius: 2rem;
       width: 12rem;
       height: 4rem;
