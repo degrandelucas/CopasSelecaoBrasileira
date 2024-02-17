@@ -1,0 +1,12 @@
+@media all and (max-width: 35em) {
+    /* Formatacao Global */
+  html {
+    /* font-size: 7px; */
+    font-size: 43.75%;
+  }
+
+  .Outros-Titulos .imagens {
+    display: grid;
+    grid-template-columns: auto;
+    }
+}
