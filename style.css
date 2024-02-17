@@ -170,6 +170,10 @@ header {
       border-end-start-radius: 2.5rem;
       border-end-end-radius: 2.5rem;
       box-shadow: inset 0rem 0rem 0.3rem 0rem #112e61b0;
+
+      & p{
+        text-align: justify;
+      }
     }
 
     & .conteudo {
